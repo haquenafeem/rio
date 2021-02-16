@@ -27,40 +27,40 @@ const (
 
 // Ignore ...
 func Ignore(data interface{}) interface{} {
-	return fmt.Sprintf(Black, data)
+	return fmt.Sprintf(Black, fmt.Sprintf("%v", data))
 }
 
 // Error ...
 func Error(data interface{}) interface{} {
-	return fmt.Sprintf(Red, data)
+	return fmt.Sprintf(Red, fmt.Sprintf("%v", data))
 }
 
 // Success ...
 func Success(data interface{}) interface{} {
-	return fmt.Sprintf(Green, data)
+	return fmt.Sprintf(Green, fmt.Sprintf("%v", data))
 }
 
 // Warn ...
 func Warn(data interface{}) interface{} {
-	return fmt.Sprintf(Yellow, data)
+	return fmt.Sprintf(Yellow, fmt.Sprintf("%v", data))
 }
 
 // Log ...
 func Log(data interface{}) interface{} {
-	return fmt.Sprintf(White, data)
+	return fmt.Sprintf(White, fmt.Sprintf("%v", data))
 }
 
 // Info ...
 func Info(data interface{}) interface{} {
-	return fmt.Sprintf(Teal, data)
+	return fmt.Sprintf(Teal, fmt.Sprintf("%v", data))
 }
 
 // Question ...
 func Question(data interface{}) interface{} {
-	return fmt.Sprintf(Magenta, data)
+	return fmt.Sprintf(Magenta, fmt.Sprintf("%v", data))
 }
 
 // Quote ...
 func Quote(data interface{}) interface{} {
-	return fmt.Sprintf(Purple, data)
+	return fmt.Sprintf(Purple, fmt.Sprintf("%v", data))
 }
