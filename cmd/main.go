@@ -30,4 +30,10 @@ func main() {
 
 	fmt.Println()
 	fmt.Println("Dedicated to Rio.....")
+
+	// @@
+	// Use it for test
+	// fmt.Println(len(rio.Ignore("").(string)))
+	// fmt.Println(len(rio.Error("").(string)))
+	// @@
 }
