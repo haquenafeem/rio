@@ -3,6 +3,12 @@ Rio, is a beautiful console logging package named after my pet bird.
 You can use this package to colorfully log texts, or any data types in the console.
 Using color to print things, will make your developing experience easier and clearer.
 
+# Install or go get
+
+```ssh
+go get github.com/haquenafeem/rio
+```
+
 # Example
 ### Code (cmd/main.go) : 
 
