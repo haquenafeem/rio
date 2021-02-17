@@ -5,7 +5,7 @@ Using color to print things, will make your developing experience easier and cle
 
 # Install or go get
 
-```ssh
+```
 go get github.com/haquenafeem/rio
 ```
 
