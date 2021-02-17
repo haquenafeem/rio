@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	fmt.Println("Rio is beautiful.....Check his swag")
+	fmt.Println("Rio is beautiful.....Check her swag")
 	fmt.Printf("%v %v %v %v %v %v %v %v",
 		rio.Ignore("Ignore"),
 		rio.Error("Error"),
@@ -29,11 +29,4 @@ func main() {
 	fmt.Println(rio.Quote(`"Love the life you live, live the life you love"`), "- Bob Marley.")
 
 	fmt.Println()
-	fmt.Println("Dedicated to Rio.....")
-
-	// @@
-	// Use it for test
-	// fmt.Println(len(rio.Ignore("").(string)))
-	// fmt.Println(len(rio.Error("").(string)))
-	// @@
 }
