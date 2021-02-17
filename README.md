@@ -43,3 +43,6 @@ func main() {
 
 
 ```
+
+### Output (console/terminal) :
+![plot](./assets/console_log.png)
