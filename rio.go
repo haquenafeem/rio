@@ -28,52 +28,52 @@ const (
 // Ignore ...
 // Use "Ignore" when you want to print something that is not important,
 // or you don't want the text to be highlighted.
-func Ignore(data interface{}) interface{} {
+func Ignore(data interface{}) string {
 	return fmt.Sprintf(Black, fmt.Sprintf("%v", data))
 }
 
 // Error ...
 // Use "Error" when you want to print some error
 // or indicate that something went wrong.
-func Error(data interface{}) interface{} {
+func Error(data interface{}) string {
 	return fmt.Sprintf(Red, fmt.Sprintf("%v", data))
 }
 
 // Success ...
 // Use "Success" when you want to print some success message
 // or use it whenever theres some work done and you want to log it.
-func Success(data interface{}) interface{} {
+func Success(data interface{}) string {
 	return fmt.Sprintf(Green, fmt.Sprintf("%v", data))
 }
 
 // Warn ...
 // Use "Warn" when you want to print some issues
 // or you want to log something that can raise a problem later.
-func Warn(data interface{}) interface{} {
+func Warn(data interface{}) string {
 	return fmt.Sprintf(Yellow, fmt.Sprintf("%v", data))
 }
 
 // Log ...
 // Use "Log" when you want to print some plain text
-func Log(data interface{}) interface{} {
+func Log(data interface{}) string {
 	return fmt.Sprintf(White, fmt.Sprintf("%v", data))
 }
 
 // Info ...
 // Use "Info" when you want to share any information
-func Info(data interface{}) interface{} {
+func Info(data interface{}) string {
 	return fmt.Sprintf(Teal, fmt.Sprintf("%v", data))
 }
 
 // Question ...
 // Use "Question" when you want to raise a question.
-func Question(data interface{}) interface{} {
+func Question(data interface{}) string {
 	return fmt.Sprintf(Magenta, fmt.Sprintf("%v", data))
 }
 
 // Quote ...
 // Use "Quote" when you want print out a quote.
 // or you want to share someone else's speech.
-func Quote(data interface{}) interface{} {
+func Quote(data interface{}) string {
 	return fmt.Sprintf(Purple, fmt.Sprintf("%v", data))
 }
